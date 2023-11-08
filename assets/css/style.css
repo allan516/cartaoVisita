@@ -42,6 +42,12 @@ main > ul > li {
     margin-top: 60px;
 }
 
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 footer {
     background-color: white;
     height: 5vh;
