@@ -32,13 +32,16 @@ article > h1 {
     text-align: center;
 }
 
-main > ul > li {
-    display: inline-block;
-    margin: auto;
-}
 main {
     height: 70vh;
+    margin: auto;
 }
+
+main > ul > li {
+    display: inline-block;
+    margin-top: 60px;
+}
+
 footer {
     background-color: white;
     height: 5vh;
