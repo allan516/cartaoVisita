@@ -30,6 +30,7 @@ border-radius: 50%;
 
 article > h1 {
     text-align: center;
+    line-height: 1.5;
 }
 
 main {
