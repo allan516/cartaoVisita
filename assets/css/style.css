@@ -4,10 +4,6 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background: url('../img/background.jpg') no-repeat left center;
     background-size: cover;
@@ -34,8 +30,9 @@ article > h1 {
 }
 
 main {
-    height: 70vh;
+    height: 80vh;
     margin: auto;
+    padding-top: 20px;
 }
 
 main > ul > li {
@@ -52,4 +49,5 @@ main > ul > li {
 footer {
     background-color: white;
     height: 5vh;
+    padding-bottom: 8px;
 }
