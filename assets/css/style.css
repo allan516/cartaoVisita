@@ -3,7 +3,15 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background: url('../img/background.jpg') no-repeat left center;
     background-size: cover;
@@ -13,7 +21,6 @@ header {
     height: 20vh;
 }
 menu {
-    background-color: white;
     height: 5vh;
 }
 
@@ -30,14 +37,15 @@ article > h1 {
 }
 
 main {
-    height: 80vh;
+    flex: 1 0 auto;
+    min-height: 65vh;
     margin: auto;
     padding-top: 20px;
 }
 
 main > ul > li {
     display: inline-block;
-    margin-top: 60px;
+    margin: 15px auto;
 }
 
 .lista {
@@ -47,7 +55,8 @@ main > ul > li {
 }
 
 footer {
-    background-color: white;
+    flex-shrink: 0;
+    background-color: rgb(167, 106, 167);
     height: 5vh;
-    padding-bottom: 8px;
+    
 }
