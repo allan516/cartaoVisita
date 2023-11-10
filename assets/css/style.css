@@ -7,6 +7,7 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: rgb(238, 238, 238);
 }
 
 body {
@@ -34,18 +35,45 @@ border-radius: 50%;
 article > h1 {
     text-align: center;
     line-height: 1.5;
+    padding: 0 5px;
+    font-size: 1.5em;
 }
 
 main {
     flex: 1 0 auto;
     min-height: 60vh;
+    max-width: 1000px;
     margin: auto;
     padding-top: 20px;
 }
 
+main > p, h3 {
+    padding: 20px 10px;
+}
+
+main > hr {
+    border: 1px solid rgb(128, 128, 128);
+}
+
 main > ul > li {
+    padding: 10px 10px; 
+    list-style-position: inside;  
+}
+
+main > ul > .icones {
     display: inline-block;
     margin: 15px auto;
+}
+
+main > ul > .icones > a > img {
+    box-shadow: 2px 2px 4px #a76aa7;
+    border-radius: 50%;
+}
+
+main > ul > .icones > a > img:hover {
+    box-shadow: 2px 2px 8px #7a4e7a;
+    border-radius: 50%;
+    transform: translate(-4%, -5%);
 }
 
 .lista {
@@ -56,7 +84,7 @@ main > ul > li {
 
 footer {
     flex-shrink: 0;
-    background-color: rgb(167, 106, 167);
+    background-color: #a76aa7;
     height: 10vh;
     
 }
