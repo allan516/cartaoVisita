@@ -14,7 +14,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
     background: url('../img/background.jpg') no-repeat left center;
     background-size: cover;
 }
@@ -49,7 +48,7 @@ article > img {
 main > .fotos {
     display: block;
     margin: auto;
-    max-width: 90vw;
+    max-width: 80vw;
 }
 
 article > div > h1 {
