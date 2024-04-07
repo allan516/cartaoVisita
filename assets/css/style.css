@@ -46,6 +46,12 @@ article > img {
     border-radius: 50%;
 }
 
+main > .fotos {
+    display: block;
+    margin: auto;
+    max-width: 55vw;
+}
+
 article > div > h1 {
     margin: auto;
     text-align: center;
@@ -64,6 +70,11 @@ main {
     max-width: 1000px;
     margin: auto;
     padding-top: 20px;
+}
+
+main .descricao {
+    text-align: center;
+    font-size: 0.8em;
 }
 
 main > p, h3 {
