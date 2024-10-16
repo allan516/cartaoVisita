@@ -34,9 +34,9 @@ article {
   align-items: center;
   flex-wrap: wrap;
   background-color: #d3a3d33a;
-  border-radius: 5px;
+  border-radius: 100px 8px 100px 0px;
   margin: 10px;
-  padding: 30px;
+  padding: 5px 5px 40px 5px;
 }
 
 article div {
@@ -137,6 +137,11 @@ main > ul > .icones > a > img:hover {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
   flex-shrink: 0;
   background-color: #a76aa7;
   height: 10vh;
