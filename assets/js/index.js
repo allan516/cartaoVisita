@@ -1,5 +1,5 @@
 function confirmDownload(event) {
-  const userConfirmed = confirm("Deseja realmente baixar o CV?");
+  const userConfirmed = confirm("Deseja baixar o currículo?");
   if (!userConfirmed) {
     event.preventDefault(); // Cancela o download
   }
