@@ -48,15 +48,6 @@ article > img {
   border-radius: 50%;
 }
 
-.parallax {
-  margin: auto;
-  max-width: 70vw;
-  height: 200px;
-  background: url('../img/casaLidoso.jpg') no-repeat center center;
-  background-size: contain;
-  background-attachment: fixed;
-}
-
 main > .fotos {
   display: block;
   margin: auto;
@@ -104,10 +95,10 @@ main > ul > li {
 }
 
 ul .list-style::before {
-  content: '✓'; /* Adiciona o símbolo de check */
-  color: green;  /* Cor do símbolo */
+  content: '✓';
+  color: green;
   font-weight: bold;
-  margin-right: 10px; /* Espaçamento entre o símbolo e o texto */
+  margin-right: 10px;
 }
 
 main > ul > li > .link {
