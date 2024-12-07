@@ -91,6 +91,14 @@ main > hr {
 main > ul > li {
   padding: 10px 10px;
   list-style-position: inside;
+  list-style: none;
+}
+
+ul .list-style::before {
+  content: '✓';
+  color: green;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 main > ul > li > .link {
