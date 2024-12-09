@@ -84,6 +84,10 @@ h3 {
   padding: 20px 10px;
 }
 
+.titles {
+  background: linear-gradient(to right, #e7d0ea, white);
+}
+
 main > hr {
   border: 1px solid rgb(128, 128, 128);
 }
