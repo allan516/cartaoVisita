@@ -86,6 +86,7 @@ h3 {
 
 .titles {
   background: linear-gradient(to right, #e7d0ea, white);
+  margin: 10px;
 }
 
 main > hr {
