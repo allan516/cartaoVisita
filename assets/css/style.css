@@ -85,7 +85,7 @@ h3 {
 }
 
 .titles {
-  background: linear-gradient(to right, #e7d0ea, white);
+  background: linear-gradient(to right, #e7d0ea, #eeeeee);
   margin: 10px;
   border-radius: 8px 8px 100px 0px;
 }
@@ -101,7 +101,7 @@ main > ul > li {
 }
 
 ul .list-style::before {
-  content: '✓';
+  content: "✓";
   color: green;
   font-weight: bold;
   margin-right: 10px;
