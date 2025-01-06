@@ -21,13 +21,6 @@ body {
   background-size: cover;
 }
 
-header {
-  height: 20vh;
-}
-menu {
-  height: 5vh;
-}
-
 article {
   display: flex;
   flex-direction: row;
@@ -36,7 +29,7 @@ article {
   background-color: #e7d0ea;
   border-radius: 100px 8px 100px 0px;
   margin: 10px;
-  padding: 5px 5px 40px 5px;
+  overflow: hidden;
 }
 
 article div {
