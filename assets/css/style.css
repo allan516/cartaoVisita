@@ -37,7 +37,8 @@ article div {
 }
 
 article > img {
-  border: 4px solid black;
+  border: 4px solid #d9b9dc;
+  box-shadow: 1px 1px 10px rgb(164, 105, 212);
   border-radius: 50%;
 }
 
