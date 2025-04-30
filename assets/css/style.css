@@ -94,11 +94,9 @@ main > ul > li {
   list-style: none;
 }
 
-ul .list-style::before {
-  content: "✓";
-  color: green;
-  font-weight: bold;
-  margin-right: 10px;
+ul .list-style {
+  display: flex;
+  gap: 10px;
 }
 
 main > ul > li > .link {
@@ -121,11 +119,6 @@ main > ul > li > .link > a {
   color: white;
 }
 
-main > ul > .icones {
-  display: inline-block;
-  margin: 15px auto;
-}
-
 main > ul > .icones > a > img {
   box-shadow: 2px 2px 4px #a76aa7;
   border-radius: 50%;
@@ -140,8 +133,6 @@ main > ul > .icones > a > img:hover {
 .lista {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 footer {
